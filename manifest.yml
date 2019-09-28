@@ -1,0 +1,8 @@
+---
+applications:
+  - name: googlepay
+    memory: 512M
+    buildpack: sap_java_buildpack
+    path: target/googlepay-1.war  
+    services:
+    - 3
